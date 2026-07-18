@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PEM Disability Children's Club | Free Inclusive Sports in Plymouth</title>
+<meta name="description" content="PEM Disability Children's Club offers free, inclusive sports and activities for children with any disability in Plymouth. Founded by Royal Navy veterans. All abilities welcome.">
+<link rel="icon" href="logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: {50:'#eef3f8',100:'#d7e3ee',200:'#b0c7dd',300:'#84a7c8',400:'#4f7ba8',500:'#2f5c89',600:'#1f4570',700:'#173657',800:'#0f2743',900:'#0B2A4A',950:'#071b31'},
+          teal: {50:'#eafaf7',100:'#c9f1ea',200:'#94e3d6',300:'#5ccfbe',400:'#2fb6a4',500:'#0F9B8E',600:'#0c8175',700:'#0d6960',800:'#0e544e',900:'#0d4642'},
+          orange: {50:'#fff4ed',100:'#ffe4d1',200:'#ffc59f',300:'#ff9d5c',400:'#fc7a2e',500:'#F97316',600:'#ea5a0c',700:'#c2440c',800:'#9a3612',900:'#7c2f12'}
+        },
+        fontFamily: { sans: ['Inter','system-ui','sans-serif'], display: ['Poppins','system-ui','sans-serif'] }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-navy-900 antialiased">
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ===== HEADER ===== -->
+<header class="bg-navy-900 sticky top-0 z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="logo-mark.svg" alt="PEM Disability Children's Club crest" class="h-12 w-12">
+        <span class="font-display font-bold text-white text-lg sm:text-xl leading-tight">PEM Disability<br class="hidden sm:block"> Children's Club</span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8" aria-label="Primary">
+        <a data-nav-link href="index.html" class="text-white font-medium hover:text-orange-400 transition-colors">Home</a>
+        <a data-nav-link href="about.html" class="text-white font-medium hover:text-orange-400 transition-colors">About Us</a>
+        <a data-nav-link href="activities.html" class="text-white font-medium hover:text-orange-400 transition-colors">Activities</a>
+        <a data-nav-link href="events.html" class="text-white font-medium hover:text-orange-400 transition-colors">Events</a>
+        <a data-nav-link href="gallery.html" class="text-white font-medium hover:text-orange-400 transition-colors">Gallery</a>
+        <a data-nav-link href="get-involved.html" class="text-white font-medium hover:text-orange-400 transition-colors">Get Involved</a>
+        <a data-nav-link href="contact.html" class="text-white font-medium hover:text-orange-400 transition-colors">Contact</a>
+      </nav>
+      <div class="hidden lg:block">
+        <a href="get-involved.html#register" class="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-full shadow-md transition-colors focus-visible:outline focus-visible:outline-3 focus-visible:outline-white">
+          Register Your Child (Free)
+        </a>
+      </div>
+      <button id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-white p-2 rounded-md hover:bg-navy-800" aria-label="Toggle navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="hidden lg:hidden pb-6" aria-label="Mobile">
+      <div class="flex flex-col gap-1">
+        <a data-nav-link href="index.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Home</a>
+        <a data-nav-link href="about.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">About Us</a>
+        <a data-nav-link href="activities.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Activities</a>
+        <a data-nav-link href="events.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Events</a>
+        <a data-nav-link href="gallery.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Gallery</a>
+        <a data-nav-link href="get-involved.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Get Involved</a>
+        <a data-nav-link href="contact.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Contact</a>
+        <a href="get-involved.html#register" class="mt-2 text-center bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-3 rounded-full">Register Your Child (Free)</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="relative bg-navy-900 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="fade-in-up">
+        <p class="inline-block bg-teal-500/20 text-teal-300 font-semibold px-4 py-1.5 rounded-full text-sm mb-5">Free &middot; Inclusive &middot; Volunteer-run in Plymouth</p>
+        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+          Every child deserves to play, belong, and shine.
+        </h1>
+        <p class="mt-6 text-lg text-navy-100 max-w-xl">
+          PEM Disability Children's Club runs free, inclusive sports and activities for children with any disability across Plymouth &mdash; because sport knows no limits, and neither do we.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="get-involved.html#register" class="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-7 py-4 rounded-full shadow-lg text-lg transition-transform hover:scale-105 focus-visible:outline focus-visible:outline-3 focus-visible:outline-white">
+            Register Your Child (Free)
+          </a>
+          <a href="events.html" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-7 py-4 rounded-full border-2 border-white/40 text-lg transition-colors">
+            See Upcoming Events
+          </a>
+        </div>
+        <dl class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-xl">
+          <div>
+            <dt class="sr-only">Cost</dt>
+            <dd class="text-teal-300 font-display font-bold text-lg">100% Free</dd>
+          </div>
+          <div>
+            <dt class="sr-only">Who can join</dt>
+            <dd class="text-teal-300 font-display font-bold text-lg">All Abilities</dd>
+          </div>
+          <div>
+            <dt class="sr-only">Founders</dt>
+            <dd class="text-teal-300 font-display font-bold text-lg">Navy Veteran-founded</dd>
+          </div>
+          <div>
+            <dt class="sr-only">Safeguarding</dt>
+            <dd class="text-teal-300 font-display font-bold text-lg">DBS-Checked</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="grid grid-cols-2 gap-4 fade-in-up" style="animation-delay:0.15s">
+        <img src="hero-1.svg" alt="Placeholder — real photo of children enjoying an inclusive sports session needed (with parental consent)" class="rounded-2xl shadow-2xl col-span-2 h-56 sm:h-72 w-full object-cover">
+        <img src="hero-2.svg" alt="Placeholder — real photo of a child at a PEM activity day needed (with parental consent)" class="rounded-2xl shadow-2xl h-40 w-full object-cover">
+        <img src="hero-3.svg" alt="Placeholder — real photo of volunteers and children together needed (with parental consent)" class="rounded-2xl shadow-2xl h-40 w-full object-cover">
+      </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="#ffffff" d="M0,32L80,26.7C160,21,320,11,480,16C640,21,800,43,960,48C1120,53,1280,43,1360,37.3L1440,32L1440,60L0,60Z"></path></svg>
+  </section>
+
+  <!-- ===== TRUST STRIP ===== -->
+  <section class="bg-white border-b border-navy-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-navy-700 font-medium text-sm sm:text-base">
+      <span class="flex items-center gap-2">🛟 Founded by Royal Navy Veterans</span>
+      <span class="flex items-center gap-2">🤝 Volunteer-Run &amp; Not-for-Profit</span>
+      <span class="flex items-center gap-2">✅ DBS-Checked Volunteers</span>
+      <span class="flex items-center gap-2">🎗️ Registered Charity No. 1212204</span>
+    </div>
+  </section>
+
+  <!-- ===== OUR STORY TEASER ===== -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+    <img src="hero-2.svg" alt="Placeholder — photo of founders Lee and Luke with the club needed" class="rounded-2xl shadow-xl w-full h-80 object-cover order-2 lg:order-1">
+    <div class="order-1 lg:order-2">
+      <p class="text-teal-600 font-semibold uppercase tracking-wide text-sm">Our Story</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Service doesn't end when the uniform comes off.</h2>
+      <p class="mt-5 text-navy-700 leading-relaxed">
+        PEM was founded by Lee Ellis and Luke Monnington, two Royal Navy veterans with over 40 years of combined service. After leaving the military, they set out on a new mission rooted in compassion and community &mdash; giving children with disabilities the same chance every child deserves: to play, grow, and make lifelong friends.
+      </p>
+      <p class="mt-4 text-navy-700 leading-relaxed">
+        Today PEM is a thriving, entirely volunteer-run club providing free, adapted sports sessions and joyful events for pan-disability children and their families across Plymouth.
+      </p>
+      <a href="about.html" class="inline-flex items-center gap-2 mt-6 text-teal-600 font-semibold hover:text-teal-700">
+        Read our full story
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ACTIVITIES HIGHLIGHTS ===== -->
+  <section class="bg-navy-50 py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-teal-600 font-semibold uppercase tracking-wide text-sm">What We Do</p>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Adapted sport, real fun, every session.</h2>
+        <p class="mt-4 text-navy-700">Football, basketball, hockey, cricket, tennis and soft athletics &mdash; plus bouncy castle days, BBQs, trophy nights, swimming trips and adventure park visits.</p>
+      </div>
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-football.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">Team Sports</h3>
+          <p class="text-navy-600 mt-1 text-sm">Adapted football, basketball, hockey and cricket for every ability.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-athletics.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">Athletics &amp; Racket Sports</h3>
+          <p class="text-navy-600 mt-1 text-sm">Mini tennis and soft athletics that build skills and confidence.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-bouncy-castle.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">Play Days &amp; Trips</h3>
+          <p class="text-navy-600 mt-1 text-sm">Bouncy castles, swimming trips and adventure park visits.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-bbq.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">BBQs &amp; Trophy Nights</h3>
+          <p class="text-navy-600 mt-1 text-sm">Celebrating every child's effort with food, fun and awards.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-litter-pick.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">Community Litter Picks</h3>
+          <p class="text-navy-600 mt-1 text-sm">Giving back to Plymouth as a team, together.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow">
+          <img src="activity-swimming.svg" alt="" class="rounded-xl h-40 w-full object-cover mb-4" aria-hidden="true">
+          <h3 class="font-display font-bold text-lg text-navy-900">Swimming &amp; Excursions</h3>
+          <p class="text-navy-600 mt-1 text-sm">Seasonal trips to pools, soft play and recreation centres.</p>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="activities.html" class="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold px-6 py-3 rounded-full transition-colors">See All Activities &amp; Sessions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS TEASER ===== -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <div class="text-center max-w-2xl mx-auto">
+      <p class="text-teal-600 font-semibold uppercase tracking-wide text-sm">What's Happening</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Coming up next at PEM</h2>
+      <p class="mt-4 text-navy-700">We run at least two free sessions a month, plus special events every term. Just turn up and play &mdash; most sessions need no booking.</p>
+    </div>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="border-2 border-navy-100 rounded-2xl p-6 hover:border-teal-400 transition-colors">
+        <p class="text-orange-600 font-bold text-sm">02 AUG 2026</p>
+        <h3 class="font-display font-bold text-lg text-navy-900 mt-1">PEM BBQ Multisport</h3>
+        <p class="text-navy-600 text-sm mt-2">10:00&ndash;13:30 &middot; Elburton Villa FC &middot; By invite only</p>
+      </div>
+      <div class="border-2 border-navy-100 rounded-2xl p-6 hover:border-teal-400 transition-colors">
+        <p class="text-orange-600 font-bold text-sm">10 AUG 2026</p>
+        <h3 class="font-display font-bold text-lg text-navy-900 mt-1">Monday Evening Litter Pick</h3>
+        <p class="text-navy-600 text-sm mt-2">17:00&ndash;19:00 &middot; Location TBC</p>
+      </div>
+      <div class="border-2 border-navy-100 rounded-2xl p-6 hover:border-teal-400 transition-colors">
+        <p class="text-orange-600 font-bold text-sm">30 AUG 2026</p>
+        <h3 class="font-display font-bold text-lg text-navy-900 mt-1">PEM Cup Charity Football Match</h3>
+        <p class="text-navy-600 text-sm mt-2">Elburton Villa FC &middot; By invite only</p>
+      </div>
+    </div>
+    <div class="text-center mt-10">
+      <a href="events.html" class="inline-flex items-center gap-2 text-teal-600 font-semibold hover:text-teal-700 text-lg">
+        View the full Diary of Events
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="bg-teal-900 py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-orange-300 font-semibold uppercase tracking-wide text-sm">Families Tell Us</p>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">What PEM means to our members</h2>
+        <p class="mt-3 text-teal-100 text-sm">Placeholder quotes shown below &mdash; to be replaced with real family testimonials once parental consent is obtained.</p>
+      </div>
+      <div class="mt-12 grid md:grid-cols-3 gap-6">
+        <blockquote class="bg-white/10 rounded-2xl p-6 text-white">
+          <p class="leading-relaxed">"My son looks forward to PEM every single week. He's made real friends and his confidence has grown so much."</p>
+          <footer class="mt-4 font-semibold text-teal-200 text-sm">&mdash; Placeholder parent quote</footer>
+        </blockquote>
+        <blockquote class="bg-white/10 rounded-2xl p-6 text-white">
+          <p class="leading-relaxed">"The volunteers are so patient and kind. It's the highlight of our month as a family."</p>
+          <footer class="mt-4 font-semibold text-teal-200 text-sm">&mdash; Placeholder parent quote</footer>
+        </blockquote>
+        <blockquote class="bg-white/10 rounded-2xl p-6 text-white">
+          <p class="leading-relaxed">"Finally somewhere my daughter can just be herself and have fun, no judgement, ever."</p>
+          <footer class="mt-4 font-semibold text-teal-200 text-sm">&mdash; Placeholder parent quote</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="bg-orange-500">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+      <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white">Ready to join the fun?</h2>
+      <p class="mt-4 text-orange-50 text-lg max-w-xl mx-auto">Free to join, no long-term obligation, all abilities welcome. Register your child today or become a volunteer.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="get-involved.html#register" class="inline-flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold px-7 py-4 rounded-full shadow-lg text-lg transition-transform hover:scale-105">Register Your Child (Free)</a>
+        <a href="get-involved.html#volunteer" class="inline-flex items-center justify-center gap-2 bg-white hover:bg-orange-50 text-orange-600 font-semibold px-7 py-4 rounded-full shadow-lg text-lg transition-transform hover:scale-105">Become a Volunteer</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-navy-950 text-navy-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <a href="index.html" class="flex items-center gap-3 mb-4">
+        <img src="logo-mark.svg" alt="PEM Disability Children's Club crest" class="h-10 w-10">
+        <span class="font-display font-bold text-white">PEM Disability<br>Children's Club</span>
+      </a>
+      <p class="text-sm text-navy-300">Free, inclusive sport for children with any disability in Plymouth. Founded by Royal Navy veterans.</p>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Explore</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="about.html" class="hover:text-orange-400">About Us</a></li>
+        <li><a href="activities.html" class="hover:text-orange-400">Activities &amp; Sessions</a></li>
+        <li><a href="events.html" class="hover:text-orange-400">Diary of Events</a></li>
+        <li><a href="gallery.html" class="hover:text-orange-400">Gallery</a></li>
+        <li><a href="get-involved.html" class="hover:text-orange-400">Get Involved</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Venues</h3>
+      <ul class="space-y-2 text-sm text-navy-300">
+        <li>Plymstock School Sports Centre<br>Church Road, Plymstock, PL9 9AZ</li>
+        <li>Elburton Villa Football Club<br>Haye Road, Plymouth, PL9 8HS</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Contact</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="mailto:contact@pemdcc.co.uk" class="hover:text-orange-400">contact@pemdcc.co.uk</a></li>
+        <li><a href="mailto:pemdcc@hotmail.com" class="hover:text-orange-400">pemdcc@hotmail.com</a></li>
+        <li><a href="#" class="hover:text-orange-400">Facebook Group (add link)</a></li>
+        <li class="pt-2 text-navy-400">Registered charity No. 1212204</li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-navy-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-navy-400">
+      <p>&copy; <span id="year">2026</span> PEM Disability Children's Club. All rights reserved.</p>
+      <p>Volunteer-run &middot; Not-for-profit &middot; DBS-checked volunteers</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

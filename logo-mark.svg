@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PEM Disability Children's Club crest">
+  <path d="M32 2 L58 12 V30 C58 46 47 57 32 62 C17 57 6 46 6 30 V12 Z" fill="#0B2A4A" stroke="#F97316" stroke-width="2"/>
+  <circle cx="32" cy="34" r="13" fill="#ffffff"/>
+  <text x="32" y="30" font-family="Poppins, Arial, sans-serif" font-size="11" font-weight="700" fill="#0B2A4A" text-anchor="middle">P.E.M</text>
+  <text x="32" y="41" font-family="Inter, Arial, sans-serif" font-size="6" fill="#0F9B8E" text-anchor="middle">EST 2024</text>
+</svg>

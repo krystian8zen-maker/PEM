@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities &amp; Sessions | PEM Disability Children's Club</title>
+<meta name="description" content="Free adapted sports sessions for children with disabilities in Plymouth — football, basketball, hockey, cricket, tennis, athletics and more at Plymstock School and Elburton Villa FC.">
+<link rel="icon" href="logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: {50:'#eef3f8',100:'#d7e3ee',200:'#b0c7dd',300:'#84a7c8',400:'#4f7ba8',500:'#2f5c89',600:'#1f4570',700:'#173657',800:'#0f2743',900:'#0B2A4A',950:'#071b31'},
+          teal: {50:'#eafaf7',100:'#c9f1ea',200:'#94e3d6',300:'#5ccfbe',400:'#2fb6a4',500:'#0F9B8E',600:'#0c8175',700:'#0d6960',800:'#0e544e',900:'#0d4642'},
+          orange: {50:'#fff4ed',100:'#ffe4d1',200:'#ffc59f',300:'#ff9d5c',400:'#fc7a2e',500:'#F97316',600:'#ea5a0c',700:'#c2440c',800:'#9a3612',900:'#7c2f12'}
+        },
+        fontFamily: { sans: ['Inter','system-ui','sans-serif'], display: ['Poppins','system-ui','sans-serif'] }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-navy-900 antialiased">
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="bg-navy-900 sticky top-0 z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="logo-mark.svg" alt="PEM Disability Children's Club crest" class="h-12 w-12">
+        <span class="font-display font-bold text-white text-lg sm:text-xl leading-tight">PEM Disability<br class="hidden sm:block"> Children's Club</span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8" aria-label="Primary">
+        <a data-nav-link href="index.html" class="text-white font-medium hover:text-orange-400 transition-colors">Home</a>
+        <a data-nav-link href="about.html" class="text-white font-medium hover:text-orange-400 transition-colors">About Us</a>
+        <a data-nav-link href="activities.html" class="text-white font-medium hover:text-orange-400 transition-colors">Activities</a>
+        <a data-nav-link href="events.html" class="text-white font-medium hover:text-orange-400 transition-colors">Events</a>
+        <a data-nav-link href="gallery.html" class="text-white font-medium hover:text-orange-400 transition-colors">Gallery</a>
+        <a data-nav-link href="get-involved.html" class="text-white font-medium hover:text-orange-400 transition-colors">Get Involved</a>
+        <a data-nav-link href="contact.html" class="text-white font-medium hover:text-orange-400 transition-colors">Contact</a>
+      </nav>
+      <div class="hidden lg:block">
+        <a href="get-involved.html#register" class="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-full shadow-md transition-colors focus-visible:outline focus-visible:outline-3 focus-visible:outline-white">
+          Register Your Child (Free)
+        </a>
+      </div>
+      <button id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-white p-2 rounded-md hover:bg-navy-800" aria-label="Toggle navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="hidden lg:hidden pb-6" aria-label="Mobile">
+      <div class="flex flex-col gap-1">
+        <a data-nav-link href="index.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Home</a>
+        <a data-nav-link href="about.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">About Us</a>
+        <a data-nav-link href="activities.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Activities</a>
+        <a data-nav-link href="events.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Events</a>
+        <a data-nav-link href="gallery.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Gallery</a>
+        <a data-nav-link href="get-involved.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Get Involved</a>
+        <a data-nav-link href="contact.html" class="text-white font-medium px-3 py-3 rounded-lg hover:bg-navy-800">Contact</a>
+        <a href="get-involved.html#register" class="mt-2 text-center bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 py-3 rounded-full">Register Your Child (Free)</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="bg-navy-900 py-16 lg:py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-teal-300 font-semibold uppercase tracking-wide text-sm">What We Do</p>
+      <h1 class="font-display text-4xl sm:text-5xl font-extrabold text-white mt-2">Activities &amp; Sessions</h1>
+      <p class="mt-4 text-navy-100 text-lg max-w-2xl mx-auto">We support the community with equal opportunity and access to sport and recreation. No one should be left behind because of a disability &mdash; we remove boundaries, fulfil dreams, enhance self-esteem, and empower youth with disabilities through participation in sport.</p>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <div class="bg-teal-50 border-2 border-teal-100 rounded-2xl p-8 text-navy-700 leading-relaxed space-y-4">
+      <p>We organise sessions in football, basketball, floorball hockey, kwik cricket, mini tennis and soft athletics. We also arrange activities such as litter picks, bouncy castle play days, BBQs, trophy nights and visits to adventure parks when funds allow.</p>
+      <p>We tend to organise events in the Plymstock, Elburton &amp; Morley areas of Plymouth, but welcome any disabled children and their families from any location. We welcome siblings and parents on the field to support their children if it helps.</p>
+      <p>We generally meet on the first Sunday of every month (1000&ndash;1200) and the second Monday of every month (1700&ndash;1800), plus extra ad hoc sessions as opportunity permits. Venues can change, but we tend to use Plymstock School and occasionally Elburton Villa Football Club.</p>
+    </div>
+  </section>
+
+  <!-- ===== ACTIVITY GRID ===== -->
+  <section class="bg-navy-50 py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-display text-3xl font-bold text-navy-900 text-center">Sports &amp; Activities</h2>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-football.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">⚽ Adapted Football</h3>
+            <p class="text-navy-600 text-sm mt-2">Small-sided, adapted rules so every child can join in and score a goal.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-basketball.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏀 Basketball</h3>
+            <p class="text-navy-600 text-sm mt-2">Indoor sessions at Plymstock School's tented hall, adapted hoops and rules.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-hockey.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏑 Floorball Hockey</h3>
+            <p class="text-navy-600 text-sm mt-2">Lightweight sticks and balls make hockey safe and accessible for all.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-cricket.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏏 Kwik Cricket</h3>
+            <p class="text-navy-600 text-sm mt-2">Fast-paced, simplified cricket &mdash; batting, bowling and fielding for everyone.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-tennis.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🎾 Mini Tennis</h3>
+            <p class="text-navy-600 text-sm mt-2">Soft balls and smaller courts build racket skills and coordination.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-athletics.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏃 Soft Athletics</h3>
+            <p class="text-navy-600 text-sm mt-2">Running, jumping and throwing games designed for every ability level.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-bouncy-castle.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏰 Bouncy Castle Play Days</h3>
+            <p class="text-navy-600 text-sm mt-2">Seasonal soft-play and bounce days, like our Easter Bounce event.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-litter-pick.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🧤 Community Litter Picks</h3>
+            <p class="text-navy-600 text-sm mt-2">Giving back to Plymouth together, building teamwork and pride.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-bbq.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🍔 BBQs &amp; Social Days</h3>
+            <p class="text-navy-600 text-sm mt-2">Our Summer BBQ & Awards Day brings the whole community together.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-trophy.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏆 Trophy Nights</h3>
+            <p class="text-navy-600 text-sm mt-2">Celebrating every child's achievements and effort throughout the year.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-swimming.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🏊 Swimming Trips</h3>
+            <p class="text-navy-600 text-sm mt-2">Our Autumn excursion often means a splash-filled trip to the pool.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+          <img src="activity-adventure-park.svg" alt="" class="h-40 w-full object-cover" aria-hidden="true">
+          <div class="p-6">
+            <h3 class="font-display font-bold text-lg text-navy-900">🎢 Adventure Park Visits</h3>
+            <p class="text-navy-600 text-sm mt-2">Trips to recreation centres and adventure parks when funds allow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VENUES ===== -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+    <h2 class="font-display text-3xl font-bold text-navy-900 text-center">Our Venues</h2>
+    <p class="text-navy-700 text-center mt-3 max-w-2xl mx-auto">All sessions are 1000&ndash;1200 at Plymstock School Astroturf unless stated otherwise. Parking is available at both venues.</p>
+    <div class="mt-12 grid md:grid-cols-2 gap-8">
+      <div class="bg-white border-2 border-navy-100 rounded-2xl overflow-hidden shadow-md">
+        <img src="venue-plymstock.svg" alt="Plymstock School Sports Centre placeholder photo" class="h-56 w-full object-cover">
+        <div class="p-6">
+          <h3 class="font-display font-bold text-xl text-navy-900">Plymstock School</h3>
+          <p class="text-navy-600 mt-1">Church Road, Plymstock, Devon, PL9 9AZ</p>
+          <p class="text-navy-600 text-sm mt-3">Astroturf, fields, 3G, tennis courts, gyms, parking, toilets, AED on site.</p>
+          <p class="text-navy-500 text-sm mt-2">Bus routes: 2 / 4 / Gold / 4A / 4B</p>
+        </div>
+      </div>
+      <div class="bg-white border-2 border-navy-100 rounded-2xl overflow-hidden shadow-md">
+        <img src="venue-elburton.svg" alt="Elburton Villa Football Club placeholder photo" class="h-56 w-full object-cover">
+        <div class="p-6">
+          <h3 class="font-display font-bold text-xl text-navy-900">Elburton Villa Football Club</h3>
+          <p class="text-navy-600 mt-1">Haye Road, Plymouth, PL9 8HS</p>
+          <p class="text-navy-600 text-sm mt-3">Used for BBQ multisport days, charity matches and evening events.</p>
+          <p class="text-navy-500 text-sm mt-2">Bus routes: 1A / 4 / Gold / 91 / 94</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-10">
+      <a href="events.html" class="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold px-6 py-3 rounded-full transition-colors">See the Full Diary of Events</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-navy-950 text-navy-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <a href="index.html" class="flex items-center gap-3 mb-4">
+        <img src="logo-mark.svg" alt="PEM Disability Children's Club crest" class="h-10 w-10">
+        <span class="font-display font-bold text-white">PEM Disability<br>Children's Club</span>
+      </a>
+      <p class="text-sm text-navy-300">Free, inclusive sport for children with any disability in Plymouth. Founded by Royal Navy veterans.</p>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Explore</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="about.html" class="hover:text-orange-400">About Us</a></li>
+        <li><a href="activities.html" class="hover:text-orange-400">Activities &amp; Sessions</a></li>
+        <li><a href="events.html" class="hover:text-orange-400">Diary of Events</a></li>
+        <li><a href="gallery.html" class="hover:text-orange-400">Gallery</a></li>
+        <li><a href="get-involved.html" class="hover:text-orange-400">Get Involved</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Venues</h3>
+      <ul class="space-y-2 text-sm text-navy-300">
+        <li>Plymstock School Sports Centre<br>Church Road, Plymstock, PL9 9AZ</li>
+        <li>Elburton Villa Football Club<br>Haye Road, Plymouth, PL9 8HS</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display font-semibold text-white mb-3">Contact</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="mailto:contact@pemdcc.co.uk" class="hover:text-orange-400">contact@pemdcc.co.uk</a></li>
+        <li><a href="mailto:pemdcc@hotmail.com" class="hover:text-orange-400">pemdcc@hotmail.com</a></li>
+        <li><a href="#" class="hover:text-orange-400">Facebook Group (add link)</a></li>
+        <li class="pt-2 text-navy-400">Registered charity No. 1212204</li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-navy-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-navy-400">
+      <p>&copy; <span id="year">2026</span> PEM Disability Children's Club. All rights reserved.</p>
+      <p>Volunteer-run &middot; Not-for-profit &middot; DBS-checked volunteers</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
